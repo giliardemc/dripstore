@@ -7,8 +7,82 @@
 
 .main-bar {
     display: flex;
-    border: 1px solid red;
     
 }
 
 
+
+header div section.vector {
+width: 33px;
+height: 33px;
+top: 38px;
+
+
+}
+
+header div section.store-name h1 {
+
+position: absolute;
+left: 16.21%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36.3951px;
+line-height: 44px;
+letter-spacing: -0.01em;
+
+color: #C92071;
+}
+
+header div section.search input {
+    position: absolute;
+    width: 559px;
+    height: 60px;
+    left: 384px;
+    top: 34px;
+
+    background: #474747;
+    opacity: 0.04;
+    border-radius: 8px;
+
+}
+
+header div section.sign-up a {
+    position: absolute;
+    width: 102px;
+    height: 28px;
+    left: 991px;
+    top: 50px;    
+}
+
+header div section.login a {
+
+width: 114px;
+height: 40px;
+
+
+font-family: 'Inter', sans-serif;
+color: #F5F5F5;
+
+position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+
+
+
+background: #C92071;
+border-radius: 8px;
+
+}
