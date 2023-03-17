@@ -5,28 +5,26 @@
 
 }
 
-.main-bar {
+header div.main-bar {
     display: flex;
     
 }
 
-
-
 header div section.vector {
-width: 33px;
-height: 33px;
-top: 38px;
-
+position: absolute;
+top: 44px;
+right: 1303px;
+left: 104px;
+bottom: 112px;
 
 }
 
 header div section.store-name h1 {
-
 position: absolute;
-left: 16.21%;
-right: 0%;
-top: 0%;
-bottom: 0%;
+top: 42px;
+right: 1083px;
+left: 145px;
+bottom: 106px;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
@@ -39,11 +37,28 @@ color: #C92071;
 }
 
 header div section.search input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    letter-spacing: 0.75px;
+
+    color: red;
+    opacity: 0.6;
+
+
+
     position: absolute;
     width: 559px;
     height: 60px;
-    left: 384px;
+    
     top: 34px;
+    right: 497px;
+    bottom: 98px;
+    left: 384px;
+    
 
     background: #474747;
     opacity: 0.04;
@@ -55,11 +70,25 @@ header div section.sign-up a {
     position: absolute;
     width: 102px;
     height: 28px;
+   
+    top: 50px;
+    right: 347px;   
+    bottom: 114px;
     left: 991px;
-    top: 50px;    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+   
+    text-decoration-line: underline;
+
+    color: #474747;
+   
 }
 
-header div section.login a {
+header div section.login button {
 
 width: 114px;
 height: 40px;
@@ -75,14 +104,24 @@ font-weight: 700;
 font-size: 14px;
 line-height: 22px;
 
-align-items: center;
+top: 44px;
+right: 203px;
+bottom: 108px;
+left: 1123px;
+
 text-align: center;
 letter-spacing: 0.75px;
 
-
-
-
 background: #C92071;
 border-radius: 8px;
+border: #C92071;
 
+}
+
+header div section.cart {
+    position: absolute;
+    top: 55.25px;
+    right: 111.75px;
+    left: 1309.75px;
+    bottom: 123.26px;
 }
